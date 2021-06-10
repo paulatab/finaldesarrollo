@@ -1,0 +1,257 @@
+/*reseteo css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECF7FA;
+
+    line-height: 1.6em;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 2rem;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1.3em;
+}
+
+
+h1 {
+    color: #15253D;
+    font-weight: bolder;
+    letter-spacing: normal;
+    padding: 25px;
+}
+
+h2 {
+    color: #15253D;
+    padding: 25px;
+}
+
+h4 {
+    color: #15253D;
+    padding: 25px 50px 75px 100px;
+}
+
+h5 {
+    color: #15253D;
+    padding: 25px 50px 75px 100px;
+}
+
+p {
+    color: #15253D;
+    padding: auto;
+}
+
+
+.container {
+
+    width: 85%;
+
+    max-width: 850px;
+
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(52, 196, 196);
+    color: whitesmoke;
+
+    padding: 2rem 0;
+}
+
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header .container .logo {
+    height: auto;
+    width: 20%;
+}
+
+.logo-nav-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes .foto-doctora {
+    display: inline-block;
+    display: block;
+    max-width: 50%;
+    height: auto;
+    padding-left: 2rem;
+}
+
+.imagenes .img {
+    padding: 1rem;
+    width: 450px;
+    height: auto;
+}
+
+.form {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+section h4,
+table {
+    color: #0AB39C;
+}
+
+section h3,
+ul {
+    color: #15253D;
+}
+
+.presentacion {
+    color: #15253D;
+    text-align: center;
+    font-size: x-large;
+}
+
+.tablaServicios {
+    color: #15253D;
+}
+
+.servicios {
+    color: #15253D;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.portada {
+    text-align: center;
+}
+
+.redesSociales {
+    display: inline-block;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.main .container section table {
+    text-align: center;
+}
+
+/* QUIENES SOMOS */
+body {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #ECF7FA;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: #53C999;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #ECF7FA;
+    background-color: #15253D;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+/* FOOTER */
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
